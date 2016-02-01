@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="Win2d.clock.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Win2d.clock"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:canvas="using:Microsoft.Graphics.Canvas.UI.Xaml"
+    Name="pane"
+    mc:Ignorable="d"
+    LayoutUpdated="pane_LayoutUpdated" >
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <canvas:CanvasAnimatedControl Name="canvas" Draw="CanvasControl_Draw" ClearColor="Black" />
+    </Grid>
+</Page>

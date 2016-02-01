@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="Win2d.clock.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Win2d.clock"
+    RequestedTheme="Dark">
+
+</Application>
