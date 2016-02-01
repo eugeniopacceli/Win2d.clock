@@ -2,6 +2,8 @@
 
 A demo clock for Win2d.uwp API, programmed in C#. Measures the current time from a UWP capable system, uses the new Win2d API (easy-to-use API for immediate 2D graphics rendering with GPU acceleration using Direct2d).
 
+Win2d API: https://github.com/Microsoft/Win2D
+
 # Images
 
 <p>On PC and Windows Phone.</p>
